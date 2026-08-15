@@ -11,7 +11,7 @@ Software engineer. I build production web apps end to end: auth, payments, data 
 
 Also in production, in private repos (happy to walk through either):
 
-- **Medworx** - a provider-management SaaS delivered for a law firm, sole developer (275 commits, hosted on the client's GitHub). TanStack Start on Cloudflare Workers, Stripe seat-based billing with verified webhooks, spreadsheet import pipeline, PWA, Playwright e2e.
+- **Medworx** - a provider-network SaaS designed, built and delivered end to end for a law firm (275 commits, hosted on the client's GitHub). TanStack Start on Cloudflare Workers, Stripe seat-based billing with verified webhooks, spreadsheet import pipeline, PWA, Playwright e2e.
 - An agentic daily planner built on Claude with 38 tools and 600+ tests.
 
 ## Contact
