@@ -9,7 +9,10 @@ Software engineer. I build production web apps end to end: auth, payments, data 
 - **[coaching](https://github.com/andrewwehbe/coaching)** - production fitness-coaching PWA with ~50 paying users. Clients log workouts on their phone; a nightly signals engine detects plateaus, fatigue and RIR drift, then drafts weekly coach notes. Next.js 16 + Supabase, 446 tests.
 - **[client-progress-hub](https://github.com/andrewwehbe/client-progress-hub)** - deterministic strength-training analysis engine. FastAPI + Supabase + Google Sheets sync, classifies sessions (plateau, fatigue, RIR drift) and writes recommendations back.
 
-Also in production, private for now (happy to walk through it): an agentic daily planner built on Claude with 38 tools and 600+ tests.
+Also in production, in private repos (happy to walk through either):
+
+- **Medworx** - a provider-management SaaS delivered for a law firm, sole developer (275 commits, hosted on the client's GitHub). TanStack Start on Cloudflare Workers, Stripe seat-based billing with verified webhooks, spreadsheet import pipeline, PWA, Playwright e2e.
+- An agentic daily planner built on Claude with 38 tools and 600+ tests.
 
 ## Contact
 
