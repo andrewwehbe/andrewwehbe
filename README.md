@@ -6,6 +6,7 @@ Software engineer. I build production web apps end to end: auth, payments, data 
 
 - **[txn-anomaly](https://github.com/andrewwehbe/txn-anomaly)** - explainable transaction anomaly detection: plain-English rule detectors plus IsolationForest under a gating policy. 91.2% recall with a ~30x smaller review queue on PaySim, with a leakage-hygiene writeup.
 - **[FocusCam](https://github.com/andrewwehbe/FocusCam)** - on-device computer vision study companion. MediaPipe object and face detection fused in a Web Worker, with a hysteresis state machine to kill false positives.
+- **[ClaimMate](https://github.com/andrewwehbe/claimmate)** - HIPAA-conscious medical-billing RCM engine: SOAP note to X12 837P claim, denial scrubbing, 835 remittance analysis, appeal drafting. Hard boundary between LLM steps and deterministic billing logic; 151 offline tests. [Live 3-portal demo](https://rcm-engine-lovat.vercel.app).
 - **[coaching](https://github.com/andrewwehbe/coaching)** - production fitness-coaching PWA with ~50 paying users. Clients log workouts on their phone; a nightly signals engine detects plateaus, fatigue and RIR drift, then drafts weekly coach notes. Next.js 16 + Supabase, 446 tests.
 - **[client-progress-hub](https://github.com/andrewwehbe/client-progress-hub)** - deterministic strength-training analysis engine. FastAPI + Supabase + Google Sheets sync, classifies sessions (plateau, fatigue, RIR drift) and writes recommendations back.
 
